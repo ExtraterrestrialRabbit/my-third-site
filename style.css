@@ -1,0 +1,25 @@
+/* Минимальные кастомные стили - основная стилизация через Bootstrap */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
+
+/* Дополнительные стили для улучшения внешнего вида */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.rounded {
+    border-radius: 0.375rem !important;
+}
+
+/* Убедимся, что изображения адаптивны */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
